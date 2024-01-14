@@ -5,11 +5,11 @@ import ListMovies from '@/components/ListMovies'
 import Form from '@/components/Form'
 import { useState } from 'react'
 
-import { move } from '@/engine/engine'
+import { startMovies, move } from '@/engine/engine'
 
 import { IMove } from '@/type-interface/type-interface'
 
-const arrayMovies: IMove[] = move('city')
+const arrayMovies: IMove[] = startMovies()
 
 function Game() {
 

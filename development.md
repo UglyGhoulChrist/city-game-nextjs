@@ -46,3 +46,19 @@ http://localhost:3000 - open with your browser to see the result
 - Form
 - Header
 - RulesGames
+
+## Merge branch
+
+- git merge feature/game-page
+
+## Created branch
+
+- git branch feature/engine
+- git checkout feature/engine
+
+## Created
+
+- engine
+
+## Merge branch
+- git merge feature/engine
