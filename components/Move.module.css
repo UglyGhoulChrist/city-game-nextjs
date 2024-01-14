@@ -1,0 +1,27 @@
+.item {}
+
+.item_user {
+    color: darkgreen;
+}
+
+.item_computer {
+    color: darkblue;
+}
+
+.item_service {
+    color: darkred;
+}
+
+.counter {
+    display: inline-block;
+    min-width: 10px;
+}
+
+.player {
+    display: inline-block;
+    min-width: 80px;
+}
+
+.city {
+    font-weight: 600;
+}
