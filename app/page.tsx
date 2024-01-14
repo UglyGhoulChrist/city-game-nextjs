@@ -1,6 +1,5 @@
 'use client'
 
-// import Header from '@/components/Header'
 import styles from '@/app/page.module.css'
 import ListMovies from '@/components/ListMovies'
 import Form from '@/components/Form'
@@ -27,8 +26,7 @@ function Game() {
 
     return (
         <main className={styles.main}>
-            {/* <Header />
-            <RulesGames /> */}
+            {/* <RulesGames /> */}
 
             <ListMovies listMovies={listMovies} />
             <Form handleForm={handleInputCity} />

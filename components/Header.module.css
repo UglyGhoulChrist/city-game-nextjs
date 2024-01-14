@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.h1 {
+    font-size: 1.75rem;
+    flex: auto;
+}
+
+.button {
+    width: fit-content;
+    height: fit-content;
+    border-radius: 0.2rem;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    transition: all 0.15s ease-in-out 0s;
+    cursor: pointer;
+}
+
+@media (any-hover: hover) {
+    .button:hover {
+        background-color: #212529;
+        color: #fff;
+    }
+}
+
+.button:active {
+    transform: translateY(2px);
+}
