@@ -6,8 +6,6 @@ import Form from '@/components/Form'
 import { useState } from 'react'
 
 import { move } from '@/engine/engine'
-// import RulesGames from '@/components/RulesGames'
-
 
 import { IMove } from '@/type-interface/type-interface'
 
@@ -26,8 +24,6 @@ function Game() {
 
     return (
         <main className={styles.main}>
-            {/* <RulesGames /> */}
-
             <ListMovies listMovies={listMovies} />
             <Form handleForm={handleInputCity} />
         </main>
