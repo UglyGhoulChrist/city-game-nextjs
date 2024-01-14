@@ -3,7 +3,7 @@
 // import Header from '@/components/Header'
 import styles from '@/app/page.module.css'
 import ListMovies from '@/components/ListMovies'
-// import Form from '@/components/Form'
+import Form from '@/components/Form'
 import { useState } from 'react'
 
 import { move } from '@/engine/engine'
@@ -31,7 +31,7 @@ function Game() {
             <RulesGames /> */}
 
             <ListMovies listMovies={listMovies} />
-            {/* <Form handleForm={handleInputCity} /> */}
+            <Form handleForm={handleInputCity} />
         </main>
     )
 }
