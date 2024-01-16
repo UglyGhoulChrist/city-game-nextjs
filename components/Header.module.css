@@ -1,4 +1,13 @@
 .header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    z-index: 2;
+    background-color: inherit;
+    border-bottom: 1px solid black;
+
     display: flex;
     gap: 1rem;
     flex-wrap: wrap;
